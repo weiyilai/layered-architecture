@@ -1,0 +1,13 @@
+﻿@model Test.Web.Models.TestModel
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<form id="form-test" method="post">
+@Html.TextBoxFor(m => m.Query.Msg)
+<input type="submit" value="submit" />
+</form>

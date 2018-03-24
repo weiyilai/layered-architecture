@@ -1,0 +1,2 @@
+﻿每個Controller對應1個Model檔案
+Model只處理對View的接收
